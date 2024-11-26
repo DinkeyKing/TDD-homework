@@ -2,11 +2,11 @@ import { Greeter } from "../src";
 
 describe("Greeting", () => {
     it("No names given", () => {
-        expect(Greeter.greet([])).toBe('Hello my friend.');
+        expect(Greeter.greet([])).toBe('Hello, my friend.');
     });
     
     it("Single input", () => {
-        expect(Greeter.greet(['Bob'])).toBe('Hello John Smith.');
+        expect(Greeter.greet(['Bob'])).toBe('Hello Bob.');
     });
     
     it("Multiple input", () => {
